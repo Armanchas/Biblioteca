@@ -12,7 +12,7 @@ Preferiblemente clonando el proyecto en el directorio que prefiera, abrendolo co
 
 El programa usa como motor de base de datos PostgreSQL, entonces va a ser necesario crear un servidor local postgres con una base de datos nueva a la que el programa se pueda conectar. Una vez hecho eso hay que editar la clase DatabaseConnection.java, en la que se encuentra el metodo para conectarse a la base de datos. Ahi hay que modificar las credenciales a las que correspondan a la base de datos que haya creado.
 
-Tambien hay un script en ./db/create/create_tables.sql que hay que ejecutar para crear las tablas necesarias y para insertar algunos datos necesarios para la demostracion.
+Tambien hay un script en ./db/create_tables.sql que hay que ejecutar para crear las tablas necesarias y para insertar algunos datos necesarios para la demostracion.
 
 Una vez hecho todo eso el programa esta listo para ejecutarse desde la clase Main. Si hay algun problema o me ha faltado algo, por favor contactarme.
 
